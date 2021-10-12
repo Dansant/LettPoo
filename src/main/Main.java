@@ -13,6 +13,7 @@ public class Main {
        boolean menu = true;
        int ida;
        float tam;
+       float alt;
        String corPena;
        String corPelo;
 
@@ -40,7 +41,11 @@ public class Main {
                    tam = myObj.nextFloat();
                    gav.setTamanho(tam);
 
+                   System.out.println("Altitude que ele voa(metros):");
+                   alt = myObj.nextFloat();
+                   gav.setAltitude(alt);
 
+                   System.out.println("Altitude que ele voa(metros):"+ gav.getAltitude());
                    System.out.println("Idade(anos):"+ gav.getIdade());
                    System.out.println("Tamanho(centrimetros):"+ gav.getTamanho());
                    System.out.println("Cor da Pena:"+ gav.getPena());
@@ -71,6 +76,11 @@ public class Main {
                    tam = myObj.nextFloat();
                    avest.setTamanho(tam);
 
+                   System.out.println("Altitude que ele voa(metros):");
+                   alt = myObj.nextFloat();
+                   avest.setAltitude(alt);
+
+                   System.out.println("Altitude que ele voa(metros):"+ avest.getAltitude());
                    System.out.println("Idade(anos):"+ avest.getIdade());
                    System.out.println("Tamanho(metros):"+ avest.getTamanho());
                    System.out.println("Cor da Pena:"+ avest.getPena());
